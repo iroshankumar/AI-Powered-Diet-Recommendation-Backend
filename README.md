@@ -83,7 +83,7 @@ Additional Modules:
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone <your-repository-link>
+git clone https://github.com/iroshankumar/AI-Powered-Diet-Recommendation-Backend/tree/main
 cd diet-ai-backend
 
 2️⃣ Create Virtual Environment
