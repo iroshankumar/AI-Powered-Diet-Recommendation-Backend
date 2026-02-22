@@ -1,0 +1,128 @@
+{
+  "info": {
+    "_postman_id": "72a59b58-274c-4d8d-9836-ca6f2520b6ec",
+    "name": "AI Diet Recommendation API",
+    "description": "Postman collection for AI-powered Diet Recommendation Backend",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "49553865"
+  },
+  "item": [
+    {
+      "name": "Create User",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Roshan\",\n  \"age\": 25,\n  \"height\": 170,\n  \"weight\": 70,\n  \"activity_level\": \"moderate\",\n  \"dietary_preference\": \"veg\",\n  \"health_goal\": \"weight_loss\",\n  \"allergies\": \"none\"\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/users",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create Meal",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Paneer Salad\",\n  \"calories\": 400,\n  \"protein\": 20,\n  \"carbs\": 30,\n  \"fat\": 18,\n  \"diet_type\": \"veg\"\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/meals",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "meals"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Recommendation",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/recommend/1",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "recommend",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Analyze Food Image",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "value": ""
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/analyze-food",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "analyze-food"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
