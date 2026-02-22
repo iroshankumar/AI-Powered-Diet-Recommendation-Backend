@@ -1,0 +1,122 @@
+{
+  "name": "Roshan",
+  "age": 25,
+  "height": 175,
+  "weight": 75,
+  "activity_level": "moderate",
+  "dietary_preference": "veg",
+  "health_goal": "weight_loss",
+  "allergies": "none",
+  "id": 1
+}
+
+{
+  "name": "rahul",
+  "age": 26,
+  "height": 180,
+  "weight": 95,
+  "activity_level": "moderate",
+  "dietary_preference": "veg",
+  "health_goal": "weight_loss",
+  "allergies": "none",
+  "id": 2
+}
+
+{
+  "name": "Rahul Sharma",
+  "age": 28,
+  "height": 178,
+  "weight": 82,
+  "activity_level": "active",
+  "dietary_preference": "non_veg",
+  "health_goal": "muscle_gain",
+  "allergies": "none",
+  "id": 3
+}
+
+{
+  "name": "raj",
+  "age": 31,
+  "height": 171,
+  "weight": 91,
+  "activity_level": "moderate",
+  "dietary_preference": "veg",
+  "health_goal": "weight_loss",
+  "allergies": "none",
+  "id": 4
+}
+
+
+meals
+
+Code	Details
+200	
+Response body
+Download
+[
+  {
+    "name": "Paneer Salad",
+    "calories": 400,
+    "protein": 20,
+    "carbs": 30,
+    "fat": 18,
+    "diet_type": "veg",
+    "id": 1
+  },
+  {
+    "name": "Oats Bowl",
+    "calories": 350,
+    "protein": 12,
+    "carbs": 55,
+    "fat": 6,
+    "diet_type": "veg",
+    "id": 2
+  },
+  {
+    "name": "Vegetable Soup",
+    "calories": 200,
+    "protein": 8,
+    "carbs": 30,
+    "fat": 5,
+    "diet_type": "veg",
+    "id": 3
+  },
+  {
+    "name": "Grilled Chicken Breast",
+    "calories": 450,
+    "protein": 50,
+    "carbs": 5,
+    "fat": 15,
+    "diet_type": "non_veg",
+    "id": 4
+  },
+  {
+    "name": "Boiled Eggs with Whole Wheat Toast",
+    "calories": 350,
+    "protein": 25,
+    "carbs": 30,
+    "fat": 15,
+    "diet_type": "non_veg",
+    "id": 5
+  },
+  {
+    "name": "Grilled Salmon with Vegetables",
+    "calories": 500,
+    "protein": 40,
+    "carbs": 20,
+    "fat": 28,
+    "diet_type": "non_veg",
+    "id": 6
+  },
+  {
+    "name": "Chicken Biryani (Healthy Portion)",
+    "calories": 600,
+    "protein": 35,
+    "carbs": 70,
+    "fat": 20,
+    "diet_type": "non_veg",
+    "id": 7
+  }
+]
+
+
